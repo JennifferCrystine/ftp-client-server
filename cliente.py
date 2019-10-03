@@ -3,10 +3,10 @@ ftp = FTP('')
 ftp.connect('localhost',1026) #colocar aqui o endereço do servidor - connect to host
 ftp.login() # user anonymous, passwd anonymous@
 #ftp.cwd(r'C:\Users\') #replace with your directory
-ftp.retrlines('LIST')# list directory contents
+ftp.retrlines('LIST') # list directory contents
 
 def uploadFile():
-	filename = input('Digite o endereço do arquivo')
+	filename = input('Digite o endereco do arquivo')
 	#filename = 'C:/Users/guilh/Desktop/REDES_I/teste.txt' #replace with your file in your home
 	folder
 	filenameu = input('Que nome deseja dar ao arquivo?')
